@@ -1,9 +1,9 @@
 package Apps.app002;
+import java.util.*;
 
 public class variaveis {
 
     public static void main(String[] args){
-        String nome = "Daniel";
         int idade = 17;
         double altura = 182.5;
         Boolean solteiro = true;
@@ -11,7 +11,7 @@ public class variaveis {
         for (int i = 0; i <= 10; i++) {
             System.out.println(i);
         }
-
+        String nome = new Scanner(System.in).nextLine();
         System.out.println("Resultado"+res+" Nome: " + nome + " Idade: " + idade +  (solteiro?" esta solteiro":"não esta solteiro") );
     }
     
