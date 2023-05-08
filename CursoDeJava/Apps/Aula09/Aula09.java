@@ -1,4 +1,4 @@
-public class Aula10 {
+public class Aula09 {
     public static void main(String[] args) {
         canal("Varnahal",5);
         System.out.print(soma(10,5));
