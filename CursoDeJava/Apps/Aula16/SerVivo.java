@@ -1,0 +1,8 @@
+package CursoDeJava.Apps.Aula16;
+
+public interface SerVivo {
+    public boolean vivo = true;
+    public void mover();
+    public void comer(int massa);
+    public void info();
+}
