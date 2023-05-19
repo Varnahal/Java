@@ -1,6 +1,6 @@
 package CursoDeJava.Apps.Aula16;
 
-public class Animal implements SerVivo {
+abstract class Animal implements SerVivo {
 
     public Animal(){
 
