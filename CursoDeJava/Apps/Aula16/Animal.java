@@ -65,5 +65,8 @@ abstract class Animal implements SerVivo {
 
     public void info() {
         System.out.printf("vivo:%s%n", vivo ?"Sim":"Não");
+        System.out.printf("Tipo:%s%n", getClass().toGenericString());
+        System.out.printf("Massa:%s%n", this.massa);
+        System.out.printf("forca:%s%n", this.forca);
     }
 }
